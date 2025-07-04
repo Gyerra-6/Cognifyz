@@ -1,61 +1,60 @@
 <!-- colorButton.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Button Color Changer</title>
+  <title>Color Button</title>
   <script>
     function changeColor(btn) {
-      const colors = ['red', 'blue', 'green', 'purple'];
+      const colors = ['red', 'green', 'blue', 'orange', 'purple'];
       btn.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
     }
   </script>
 </head>
 <body>
-  <button onclick="changeColor(this)">Click to Change Color</button>
+  <h2>Color Changing Button</h2>
+  <button onclick="changeColor(this)">Click Me</button>
 </body>
 </html>
 
 <!-- greetingAlert.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
   <title>Greeting Alert</title>
   <script>
-    function greet() {
+    function greetUser() {
       const hour = new Date().getHours();
-      let message = '';
-      if (hour < 12) message = 'Good morning!';
-      else if (hour < 18) message = 'Good afternoon!';
-      else message = 'Good evening!';
-      alert(message);
+      let greeting = '';
+      if (hour < 12) greeting = 'Good Morning!';
+      else if (hour < 18) greeting = 'Good Afternoon!';
+      else greeting = 'Good Evening!';
+      alert(greeting);
     }
   </script>
 </head>
-<body onload="greet()">
+<body onload="greetUser()">
 </body>
 </html>
 
 <!-- calculator.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
   <title>Simple Calculator</title>
   <script>
-    function calculate() {
+    function addNumbers() {
       const num1 = parseFloat(document.getElementById('num1').value);
       const num2 = parseFloat(document.getElementById('num2').value);
-      document.getElementById('result').textContent = `Sum: ${num1 + num2}`;
+      const result = num1 + num2;
+      document.getElementById('result').innerText = 'Sum: ' + result;
     }
   </script>
 </head>
 <body>
-  <h2>Calculator</h2>
+  <h2>Simple Calculator</h2>
   <input type="number" id="num1" placeholder="First number">
   <input type="number" id="num2" placeholder="Second number">
-  <button onclick="calculate()">Add</button>
+  <button onclick="addNumbers()">Add</button>
   <p id="result"></p>
 </body>
 </html>
