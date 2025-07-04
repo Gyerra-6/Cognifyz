@@ -62,8 +62,8 @@ Welcome to the official project repository for my **Cognifyz Web Development Int
 
 ## Contact
 - **Name**: Gayathri Yerra  
-- **Email**: gayathriy@gmail.com  
-- **LinkedIn**: [linkedin.com/in/gayathri-yerra](https://linkedin.com/in/gayathri-yerra)
+- **Email**: gayathriyerra3@gmail.com  
+- **LinkedIn**: www.linkedin.com/in/gayathri-yerra19
 
 ---
 
