@@ -1,0 +1,78 @@
+<!-- internship-landing-page.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Developer Internship - Cognifyz</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+    header {
+      background-color: #6a0dad;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .cta a {
+      background-color: #6a0dad;
+      color: white;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Web Developer Internship Opportunities at Cognifyz Technologies</h1>
+  </header>
+
+  <section>
+    <h2>About the Program</h2>
+    <p>Join our dynamic internship program and gain real-world experience in web development. Learn from expert mentors, collaborate on impactful projects, and enhance your technical skills in a supportive environment.</p>
+  </section>
+
+  <section>
+    <h2>Why Join?</h2>
+    <ul>
+      <li>Hands-on learning experience</li>
+      <li>Mentorship from experienced developers</li>
+      <li>Opportunity to work on real projects</li>
+      <li>Internship certification and potential stipends</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Desired Skills</h2>
+    <p>Basic knowledge of HTML, CSS, JavaScript, and responsiveness. Familiarity with frameworks like Bootstrap or Bulma is a plus.</p>
+  </section>
+
+  <div class="cta">
+    <a href="#">Apply Now</a>
+  </div>
+
+  <footer>
+    <p>Contact us: contact@cognifyz.com | www.cognifyz.com</p>
+    <p>Follow us: @cognifyz_tech</p>
+  </footer>
+</body>
+</html>
